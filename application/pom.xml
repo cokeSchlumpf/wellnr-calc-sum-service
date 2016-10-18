@@ -5,12 +5,12 @@
 
     <parent>
         <groupId>com.wellnr</groupId>
-        <artifactId>my-artifact-id</artifactId>
+        <artifactId>wellnr-calc-sum-service</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.wellnr</groupId>
-    <artifactId>my-artifact-id-application</artifactId>
+    <artifactId>wellnr-calc-sum-service-application</artifactId>
     <packaging>war</packaging>
 
     <properties>

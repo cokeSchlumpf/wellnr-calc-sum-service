@@ -5,12 +5,12 @@
 
     <parent>
         <groupId>com.wellnr</groupId>
-        <artifactId>my-artifact-id</artifactId>
+        <artifactId>wellnr-calc-sum-service</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     
     <groupId>com.wellnr</groupId>
-    <artifactId>my-artifact-id-deploy</artifactId>
+    <artifactId>wellnr-calc-sum-service-deploy</artifactId>
     <packaging>pom</packaging>
     
     <dependencies>

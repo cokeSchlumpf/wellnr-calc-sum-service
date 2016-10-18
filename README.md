@@ -4,13 +4,13 @@ This starter kit is created with http://liberty-starter.wasdev.developer.ibm.com
 
 ## TODO after initial clone
 
-* Replace all `com.wellnr`, `my-artifact-id` and `com.wellnr` in the project
+* Replace all `com.wellnr`, `wellnr-calc-sum-service` and `com.wellnr` in the project
 
   ```bash
   # Mac OS X sed, for Linux use sed -i -e ...
   find ./ -type f -exec sed -i '' -e 's/com.wellnr/MY_PARENT_GROUPID/g' {} \;
   find ./ -type f -exec sed -i '' -e 's/com.wellnr/MY_GROUPID/g' {} \;
-  find ./ -type f -exec sed -i '' -e 's/my-artifact-id/MY_ARTIFACT_ID/g' {} \;
+  find ./ -type f -exec sed -i '' -e 's/wellnr-calc-sum-service/MY_ARTIFACT_ID/g' {} \;
   ```
 
 * Edit or create `~/.m2/settings.xml`

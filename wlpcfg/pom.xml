@@ -3,12 +3,12 @@
 
     <parent>
         <groupId>com.wellnr</groupId>
-        <artifactId>my-artifact-id</artifactId>
+        <artifactId>wellnr-calc-sum-service</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.wellnr</groupId>
-    <artifactId>my-artifact-id-wlpcfg</artifactId>
+    <artifactId>wellnr-calc-sum-service-wlpcfg</artifactId>
     <packaging>liberty-assembly</packaging>
 
     <dependencies>
