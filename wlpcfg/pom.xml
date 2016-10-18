@@ -2,18 +2,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>my-parent-groupid</groupId>
+        <groupId>com.wellnr</groupId>
         <artifactId>my-artifact-id</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>my-groupid</groupId>
+    <groupId>com.wellnr</groupId>
     <artifactId>my-artifact-id-wlpcfg</artifactId>
     <packaging>liberty-assembly</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>my-groupid</groupId>
+            <groupId>com.wellnr</groupId>
             <artifactId>${warName}</artifactId>
             <version>${warVersion}</version>
             <type>war</type>

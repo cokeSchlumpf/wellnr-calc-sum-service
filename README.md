@@ -4,12 +4,12 @@ This starter kit is created with http://liberty-starter.wasdev.developer.ibm.com
 
 ## TODO after initial clone
 
-* Replace all `my-parent-groupid`, `my-artifact-id` and `my-groupid` in the project
+* Replace all `com.wellnr`, `my-artifact-id` and `com.wellnr` in the project
 
   ```bash
   # Mac OS X sed, for Linux use sed -i -e ...
-  find ./ -type f -exec sed -i '' -e 's/my-parent-groupid/MY_PARENT_GROUPID/g' {} \;
-  find ./ -type f -exec sed -i '' -e 's/my-groupid/MY_GROUPID/g' {} \;
+  find ./ -type f -exec sed -i '' -e 's/com.wellnr/MY_PARENT_GROUPID/g' {} \;
+  find ./ -type f -exec sed -i '' -e 's/com.wellnr/MY_GROUPID/g' {} \;
   find ./ -type f -exec sed -i '' -e 's/my-artifact-id/MY_ARTIFACT_ID/g' {} \;
   ```
 
