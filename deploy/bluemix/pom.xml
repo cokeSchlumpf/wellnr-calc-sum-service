@@ -108,6 +108,13 @@
                     <password>${cf.password}</password>
                     <appname>${cf.host}</appname>
                     <memory>512</memory>
+                    <services>
+                      <service>
+                        <name>Service Discovery-0n</name>
+                        <label>Service Discovery-0n</label>
+                        <plan>free</plan>
+                      </service>
+                    </services>
                 </configuration>
                 <executions>
                     <execution>

@@ -12,7 +12,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- *******************************************************************************/ 
+ *******************************************************************************/
 package fvt;
 
 import org.junit.Test;
@@ -30,11 +30,11 @@ public class TestApplication {
     public void testDeployment() {
     	try {
     		// Give the application a few seconds to get started.
-			Thread.sleep(10000l);
+			Thread.sleep(30000l);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-    	
+
         String context = System.getProperty("cf.context.root");
         String url = "http://" + context + "/index.html";
         System.out.println("Testing " + url);
