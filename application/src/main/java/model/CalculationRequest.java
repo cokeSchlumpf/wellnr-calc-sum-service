@@ -6,10 +6,12 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
+import util.BaseObject;
+
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(propOrder = { "n1", "n2" })
-public class CalculationRequest {
+public class CalculationRequest extends BaseObject {
 
 	@XmlElement(name = "n1", required = true)
 	public final int n1;
